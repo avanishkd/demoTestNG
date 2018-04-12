@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="catalina" duration-ms="18521" started-at="2018-03-28T10:28:54Z" finished-at="2018-03-28T10:29:13Z">
+    <groups>
+    </groups>
+    <test name="couponNetwork" duration-ms="18521" started-at="2018-03-28T10:28:54Z" finished-at="2018-03-28T10:29:13Z">
+      <class name="executionClasses.FlipkartLogin">
+        <test-method status="PASS" signature="checkBeforeClass()[pri:0, instance:executionClasses.FlipkartLogin@5442a311]" name="checkBeforeClass" is-config="true" duration-ms="15" started-at="2018-03-28T15:58:54Z" finished-at="2018-03-28T15:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBeforeClass -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:executionClasses.FlipkartLogin@5442a311]" name="OpenBrowser" is-config="true" duration-ms="5696" started-at="2018-03-28T15:58:54Z" finished-at="2018-03-28T15:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:executionClasses.FlipkartLogin@5442a311]" name="demo" duration-ms="10981" started-at="2018-03-28T15:59:00Z" finished-at="2018-03-28T15:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="clearBrowser(org.testng.ITestResult)[pri:0, instance:executionClasses.FlipkartLogin@5442a311]" name="clearBrowser" is-config="true" duration-ms="1779" started-at="2018-03-28T15:59:11Z" finished-at="2018-03-28T15:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demo status=SUCCESS method=FlipkartLogin.demo()[pri:0, instance:executionClasses.FlipkartLogin@5442a311] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowser -->
+        <test-method status="PASS" signature="checkAfterClass()[pri:0, instance:executionClasses.FlipkartLogin@5442a311]" name="checkAfterClass" is-config="true" duration-ms="0" started-at="2018-03-28T15:59:13Z" finished-at="2018-03-28T15:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAfterClass -->
+      </class> <!-- executionClasses.FlipkartLogin -->
+    </test> <!-- couponNetwork -->
+  </suite> <!-- catalina -->
+</testng-results>

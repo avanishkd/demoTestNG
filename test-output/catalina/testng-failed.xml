@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [catalina]">
+  <test name="couponNetwork(failed)">
+    <classes>
+      <class name="executionClasses.FlipkartLogin">
+        <methods>
+          <include name="clearBrowser"/>
+          <include name="demo"/>
+          <include name="OpenBrowser"/>
+          <include name="checkBeforeClass"/>
+          <include name="checkAfterClass"/>
+        </methods>
+      </class> <!-- executionClasses.FlipkartLogin -->
+    </classes>
+  </test> <!-- couponNetwork(failed) -->
+</suite> <!-- Failed suite [catalina] -->
